@@ -121,4 +121,4 @@ if __name__ == "__main__":
     d = powMod(e, phi, N)
     privateKey = (d, N)
 
-    print(f"Private Key: {privateKey}")
+    print(f"Private Key (d, N): {privateKey}")
